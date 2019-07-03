@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AES.xcodeproj">
+      location = "self:AES_Demo.xcodeproj">
    </FileRef>
 </Workspace>

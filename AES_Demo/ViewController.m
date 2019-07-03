@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  AES
+//  AES_Demo
 //
 //  Created by dengzemiao on 2019/7/3.
 //  Copyright © 2019 DZM. All rights reserved.
@@ -28,12 +28,13 @@
     NSString *string = @"DZM_TEST";
     
     NSString *encrypt_128_base64String = [AESCrypt encrypt_128:string key:key];
-
+    
     NSLog(@"AES128加密之后: %@", encrypt_128_base64String);
     
     NSString *decrypt_128_string = [AESCrypt decrypt_128:encrypt_128_base64String key:key];
     
     NSLog(@"AES128解密之后: %@", decrypt_128_string);
 }
+
 
 @end

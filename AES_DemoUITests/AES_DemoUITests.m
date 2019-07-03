@@ -1,6 +1,6 @@
 //
-//  AESUITests.m
-//  AESUITests
+//  AES_DemoUITests.m
+//  AES_DemoUITests
 //
 //  Created by dengzemiao on 2019/7/3.
 //  Copyright © 2019 DZM. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface AESUITests : XCTestCase
+@interface AES_DemoUITests : XCTestCase
 
 @end
 
-@implementation AESUITests
+@implementation AES_DemoUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
